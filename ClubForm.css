@@ -6,11 +6,23 @@ body{
     padding:0;
     height:100%;
     width:100%;
-    Background:linear-gradient(#00ff00,#ffff00);
+    Background:linear-gradient(#c2c2c2,#ffffff);
     /* (#ff1100,#000000) */
 }
 .align{
   text-align: right;
+}
+input
+{
+  text-align: center;
+}
+:-ms-input-placeholder
+{
+  text-align: center;
+}
+::-webkit-input-placeholder
+{
+  text-align: center;
 }
 
 .login-box{
@@ -20,7 +32,7 @@ body{
     width: 600px;
     padding: 40px;
     transform: translate(-50%,-50%);
-    Background:linear-gradient(#00ff00,#ffff00);
+    Background:linear-gradient(#ffffff,#c2c2c2);
     box-sizing:border-box;
     box-shadow: 0 15px 25px rgba(0,0,0,6);
     border-radius: 10px;
@@ -39,7 +51,7 @@ body{
     margin-left: 100px;
     width:100px;
     border-radius: 12px;
-    background-color:linear-gradient(#00ff00,hsl(56, 96%, 50%));
+    background-color:linear-gradient(#ffffff,#c2c2c2));
     text-align: center;
     border: 2px solid  #0e0002;
 }
