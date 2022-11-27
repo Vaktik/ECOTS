@@ -12,18 +12,7 @@ body{
 .align{
   text-align: right;
 }
-input
-{
-  text-align: center;
-}
-input::-ms-input-placeholder
-{
-  text-align: center;
-}
-::-webkit-input-placeholder
-{
-  text-align: center;
-}
+
 
 .login-box{
     position:absolute;
