@@ -16,7 +16,7 @@ input
 {
   text-align: center;
 }
-:-ms-input-placeholder
+input::-ms-input-placeholder
 {
   text-align: center;
 }
