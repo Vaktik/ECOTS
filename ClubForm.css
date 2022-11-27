@@ -9,6 +9,18 @@ body{
     Background:linear-gradient(#c2c2c2,#ffffff);
     /* (#ff1100,#000000) */
 }
+input
+{
+  text-align: center;
+}
+input::-ms-input-placeholder
+{
+  text-align: center;
+}
+input::-webkit-input-placeholder
+{
+  text-align: center;
+}
 .align{
   text-align: right;
 }
